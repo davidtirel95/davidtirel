@@ -1,11 +1,9 @@
 import React from 'react';
 import "./intro.css";
-import { useNavigate } from 'react-router-dom';
-import img1 from "../../../assets/logo.png"
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+
 const Intro = () => {
  
-  //let navigate = useNavigate();
+
   
   return (
     
