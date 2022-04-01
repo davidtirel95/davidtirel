@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.i 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+   
+}
+.i-left 
+{
+    flex: 1;
+    margin-top: 10px;
+    border-right: 1px solid black;    
+    height: 980px;
+
+}
+.i-left-wrapper
+{ 
+    padding-left: 100px;   
+}
+
+.i-name 
+{
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 1000;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+.i-title-item 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif;
+}
+.i-title-item-and 
+{
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Cantata One', serif;
+    margin-bottom: 0px;
+}
+.i-title-item-dev 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif; 
+}
+.i-intro 
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 500px;  
+}
+.i-right 
+{
+    flex: 1;
+}
+.i-right-wrapper
+{
+    
+    margin-top: 10px;
+}
+.i-header
+{
+    display: flex;
+    padding-top:10px;
+}
+.i-number
+{   
+    margin-left:5px ;
+    font-size: 29px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.i-about
+{
+    padding-left: 830px;  
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+   
+}
+.i-logo 
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.i-d
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 150px;
+}
+.i-t 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 300px;
+}
+.i-interest
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 300px;
+    padding-bottom: 20px; 
+}
+
+
