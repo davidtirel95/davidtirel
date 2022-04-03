@@ -2,22 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
 .i 
 {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
-    
-   
+    height: 100vh; 
 }
+
 .i-left 
 {
     flex: 1;
     margin-top: 10px;
     border-right: 1px solid black;    
     height: 980px;
+}
 
+@media screen and (min-width:800px) {
+    .i-left 
+{
+    flex: 1;
+    margin-top: 10px;
+    border-right: 1px solid black;    
+    height: 780px;
+}
 }
 .i-left-wrapper
 { 
@@ -57,6 +66,8 @@
     margin-right: 0.5px;
     padding-top: 500px;  
 }
+
+
 .i-right 
 {
     flex: 1;
@@ -83,8 +94,19 @@
     padding-left: 830px;  
     font-size: 29px;
     font-family: 'Cantata One', serif;
-   
+    position: absolute;
 }
+@media screen and (min-width:800px) {
+    .i-about
+{
+    padding-left: 700px;  
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    position: absolute;
+}
+}
+
+
 .i-logo 
 {
     display: flex;

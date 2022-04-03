@@ -9,13 +9,6 @@
     width: 100vw;
    
 }
-.c-left 
-{
-    flex: 1;
-    margin-top: 10px;
-    border-right: 1px solid black;    
-    height: 980px;
-}
 .c-number
 {   
     margin-left:5px ;
@@ -32,10 +25,19 @@
 }
 .c-contact
 {
-    padding-left: 800px;  
+    padding-left: 800px; 
+    padding-right: 10px; 
+    font-size: 29px;
+    font-family: 'Cantata One', serif;  
+}
+@media screen and (min-width:800px) 
+{
+    .c-contact
+{
+    padding-left: 670px;  
     font-size: 29px;
     font-family: 'Cantata One', serif;
-    
+}
 }
 .c-location 
 {
@@ -51,7 +53,16 @@
     margin-top: 10px;
     border-right: 1px solid black;    
     height: 980px;
-
+}
+@media screen and (min-width:800px) {
+    .c-left 
+    {
+        flex: 1;
+        margin-top: 10px;
+        border-right: 1px solid black;    
+        height: 780px;
+        
+    }
 }
 .c-left-wrapper
 { 
@@ -83,7 +94,6 @@
     font-size: 15px;
     font-family: 'Cantata One', serif; 
 }
-
 .c-right 
 {
     flex: 1;
@@ -97,7 +107,6 @@
     display: flex;
     padding-top:10px;
 }
-
 .social 
 {
     border-top: 1px solid #000;
@@ -108,7 +117,19 @@
     margin-right: 20px;
     padding-top: 10px;
 }
-
+@media screen and (min-width:800px) {
+    .social 
+{
+    border-top: 1px solid #000;
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-top: 200px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+    
+}
 button
 {
     text-decoration: none;
@@ -187,8 +208,22 @@ button:hover span
     padding-top: 10px;
     margin-bottom: 30px;
 }
+@media screen and (min-width:800px) {
+    .c-end
+{
+    border-top: 1px solid #000;
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-top: 224px;
+    margin-right: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+}
 .contact 
 {
     color: black;
     text-decoration: none;
 }
+
