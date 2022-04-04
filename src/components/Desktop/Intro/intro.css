@@ -19,7 +19,7 @@
     height: 980px;
 }
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1900px) {
     .i-left 
 {
     flex: 1;
@@ -96,7 +96,7 @@
     font-family: 'Cantata One', serif;
     position: absolute;
 }
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1900px) {
     .i-about
 {
     padding-left: 700px;  
