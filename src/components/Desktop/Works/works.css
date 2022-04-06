@@ -1,138 +1,22 @@
-* {
-    margin: 0;
+*
+{
     padding: 0;
+    margin: 0;
 }
-.w 
+.works
 {
     display: flex;
-    
-    
+    width: 100vw;
 }
-.w-title {
-    
-    font-size: 80px;
-    font-weight: 900;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 20px;
-    margin-right: 0px;
-    padding-top: 300px;
-}
-.w-desc
+.worksleft 
 {
-    font-size: 29px;
-    font-family: 'Cantata One', serif;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-@media screen and (min-width:800px) {
-    .w-title {
-    
-        font-size: 80px;
-        font-weight: 900;
-        font-family: 'Josefin Sans', sans-serif;
-        margin-left: 20px;
-        margin-right: 0px;
-        padding-top: 200px;
-    }
-}
-.w-number
-{   
-    margin-left:5px ;
-    font-size: 29px;
-    font-weight: 900;
-    font-family: 'Josefin Sans', sans-serif;
-
-}
-.w-works
-{
-    padding-left: 830px; 
-    font-size: 29px;
-    font-family: 'Cantata One', serif 
-}
-@media screen and (min-width:800px) {
-    .w-works
-    {
-        padding-left: 670px; 
-        font-size: 29px;
-        font-family: 'Cantata One', serif 
-    }
-}
-.card-list 
-{
-    display: flex;
-    position: absolute;
-    padding-left: 70px;
-    padding-top: 70px;
-}
-@media screen  and (min-width:800px){
-    .card-list 
-{
-    display: flex;
-    position: absolute;
-    padding-left: 50px;
-    padding-top: 0px;
-}
-}
-.w-left 
-{
-    flex: 1;
-    margin-top: 10px;
-    border-right: 1px solid black;    
-    height: 980px;
-}
-@media screen and (min-width:800px) {
-    .w-left 
-    {
-        flex: 1;
-        margin-top: 10px;
-        border-right: 1px solid black;    
-        height: 780px;
-    }
-}
-.w-left-wrapper
-{ 
-    padding-left: 100px;   
-}
-
-.w-name 
-{
-    padding-top: 10px;
-    font-size: 19px;
-    font-weight: 1000;
-    font-family: 'Josefin Sans', sans-serif;
-   
-}
-.w-title-item 
-{
-    font-size: 15px;
-    font-family: 'Cantata One', serif;
-}
-.w-title-item-and 
-{
-    font-style: italic;
-    font-size: 12px;
-    font-family: 'Cantata One', serif;
-    margin-bottom: 0px;
-}
-.w-title-item-dev 
-{
-    font-size: 15px;
-    font-family: 'Cantata One', serif; 
-}
-
-.w-right 
-{
-    flex: 1;
-}
-.w-right-wrapper
-{
-    
-    margin-top: 10px;
-}
-.w-header
-{
-    display: flex;
-    padding-top:10px;
+   border-right: 1px solid black;
+   height: 95vh;
+   margin-top: 25px;
  
 }
-
+.worksright 
+{
+    height: 95vh;
+    margin-top: 5px;
+}

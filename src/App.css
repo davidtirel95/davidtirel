@@ -5,10 +5,6 @@
   
 }
 
-.slide {
- width:100vw;
- height: 100vh;
-}
 .blocHorizontal
 {
   display: flex;
@@ -19,7 +15,6 @@
 }
 .container 
 {
-  
   width: 100vh;
   height: 100vw;
   transform: rotate(-90deg) translateX(-100vh);
@@ -34,16 +29,19 @@
 }
 .one
 {
-  background-color: #F0EAD6;
-
 }
+
 .two
 {
-  background:#eff0d6;
-
-  
+  background: #f0ead6;
+  height: 100vh;
 }
+
 .three
 {
-  background-color: #F0EAD6;
+  background-color: #1ca55c;
+}
+.four 
+{
+  background: rgb(73, 47, 219);
 }

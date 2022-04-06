@@ -5,22 +5,19 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "./App.css"; 
 
-
 const App = () => {
 
   return (
 
     <>
-
     <div className="container">
       <div className="blocHorizontal">
-        <div className="slide one "><Intro/></div>
-        <div className="slide two"><Works/></div> 
-        <div className="slide three"><Contact/></div>
+        <div className="slide "><Intro/></div> 
+        <div className="slide two "><Works/></div> 
+        <div className="slide "><Contact/></div>
         <ToastContainer />
       </div>
-    </div>
-      
+    </div>   
     </>
    
   );

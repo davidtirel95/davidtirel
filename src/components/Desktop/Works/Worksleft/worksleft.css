@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.w-title {
+    
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-top: 300px; 
+}
+.w-desc
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+@media screen and (min-width:800px) {
+    .w-title {
+    
+        font-size: 80px;
+        font-weight: 900;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 20px;
+        margin-right: 0px;
+        padding-top: 200px;
+    }
+}
+.w-left 
+{
+    flex: 1;   
+    width: 50vw;    
+}
+@media screen and (min-width:800px)
+{
+    .w-left 
+    {
+        flex: 1;
+        margin-top: 10px;
+        height: 780px;
+    }
+}
+.w-left-wrapper
+{ 
+    padding-left: 100px; 
+    margin-bottom: 50px;  
+}
+.w-name 
+{   
+    font-size: 19px;
+    font-weight: 1000;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+.w-title-item 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif;
+}
+.w-title-item-and 
+{
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Cantata One', serif;
+    margin-bottom: 0px;
+}
+.w-title-item-dev 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif; 
+}
+.w-right 
+{
+    flex: 1;
+}
+.w-right-wrapper
+{
+    margin-top: 10px;
+}
+.w-header
+{
+    display: flex;
+    padding-top:10px;
+}
+

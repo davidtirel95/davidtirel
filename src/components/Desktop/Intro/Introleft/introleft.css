@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:1900px) {
+    .i-left 
+{
+    flex: 1;
+    height: 780px;
+}
+}
+.i-left-wrapper
+{ 
+    padding-left: 100px;     
+}
+.i-name 
+{
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 1000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.i-title-item 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif;
+}
+.i-title-item-and 
+{
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Cantata One', serif;
+    margin-bottom: 0px;
+}
+.i-title-item-dev 
+{
+    font-size: 15px;
+    font-family: 'Cantata One', serif; 
+}
+.i-intro 
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 400px;  
+}
+@media screen and (min-width:1920px)
+{
+    .i-intro 
+    {
+        font-size: 29px;
+        font-family: 'Cantata One', serif;
+        margin-left: 20px;
+        margin-right: 0.5px;
+        padding-top: 500px;  
+    }
+}

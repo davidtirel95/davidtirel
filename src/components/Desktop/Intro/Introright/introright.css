@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.in
+{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 100vh; 
+    margin-top: 10px;
+}
+.i-right 
+{
+    flex: 1;  
+}
+@media screen and (max-width:1900px) {
+    .i-right 
+{
+    flex: 1;
+}
+}
+.i-header
+{
+    display: flex;
+}
+.i-number
+{   
+    margin-left:5px ;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: left;
+    display: flex;
+    flex: 1;
+}
+.intro-about
+{      
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    display: flex;   
+    flex: 1;
+    justify-content:right;  
+    padding-right:20px;
+}
+@media screen and (max-width: 850px) 
+{
+    .intro-about
+{      
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    display: flex;   
+    flex: 1;
+    justify-content:right; 
+    padding-right: 10px;   
+}    
+}
+.i-logo 
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.i-d
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 150px;
+
+}
+@media screen and (max-width:1024px) {
+    .i-d 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 50px;
+}
+}
+.i-t 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 300px; 
+}
+@media screen and (max-width:1410px) {
+    .i-t 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 220px;
+  
+}
+}
+@media screen and (max-width:1210px) {
+    .i-t 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 120px;
+  
+}
+}
+@media screen and (max-width:1024px) {
+    .i-t 
+{
+    font-size: 190px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left:50px;
+  
+}
+}
+.interest
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 200px;
+    padding-bottom: 20px; 
+}
+
+@media screen and (min-width:1920px)
+{
+    .interest
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 300px;
+    padding-bottom: 20px; 
+}
+}
+@media screen and (max-width:1024px)
+{
+    .interest
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 300px;
+    padding-bottom: 20px; 
+
+}
+}
+@media screen and (max-width:1180px)
+{
+    .interest
+{
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    padding-left: 5px; 
+
+}
+}

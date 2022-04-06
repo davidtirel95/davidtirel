@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.worksR
+{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 100vh;   
+      
+}
+.w-header
+{
+    display: flex; 
+    width: 50vw;  
+}
+.w-number
+{   
+    margin-left:5px ;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: flex-start;   
+}
+.w-works
+{      
+    font-size: 29px;
+    font-family: 'Cantata One', serif;  
+    display: flex;   
+    flex: 1;
+    justify-content:right;  
+    padding-right:20px;  
+}
+.card-list 
+{
+    flex: 1;  
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+
+

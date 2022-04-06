@@ -1,0 +1,125 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.c-header
+{
+    display: flex;
+    width: 50vw; 
+}
+.c-contact
+{      
+    font-size: 29px;
+    font-family: 'Cantata One', serif;  
+    display: flex;   
+    flex: 1;
+    justify-content:right;  
+    padding-right:20px;  
+  
+}
+button
+{
+    text-decoration: none;
+    color: #f18623;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    background: none;
+    font-weight: 900px;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer; 
+    display: flex;
+}
+button::before, 
+button::after 
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+button::before
+{
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+button::after 
+{
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+button:hover::before
+{
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+button:hover::after
+{
+    transform: translate3d(0, 0, 0);
+}
+button span
+{
+ 
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+button:hover span
+{
+    transform: translate3d(-200%, 0, 0);
+}
+
+.c-interest
+{   
+    font-weight: 900px;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 0.5px;
+    padding-top: 150px; 
+    margin-top: 30px;
+}
+@media screen and (max-width:792px) 
+{
+    .c-interest 
+    {
+        padding-top: 80px;
+    }   
+}
+.c-end
+{   
+  
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    font-size: 29px;
+    font-family: 'Cantata One', serif;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 193px;
+    margin-bottom: 30px;
+    position: sticky;   
+}
+@media screen and (max-width:1138px) 
+{
+    .c-end 
+    {
+        margin-top: 123px;
+    } 
+}
+.c-number
+{   
+    margin-left:5px ;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
