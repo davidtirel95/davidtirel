@@ -27,21 +27,31 @@
 ::-webkit-scrollbar {
   display: none;
 }
-.one
-{
-}
+@media all and (max-width:700px) {
 
+  .blocHorizontal
+  {
+
+    width: 300vw;
+    flex-direction: column;
+    height: 100vh;
+    transform: rotate(0deg) translateY(0vh);
+    transform-origin: top left;
+  }
+  .container 
+{
+ 
+  height: 300vw;
+  transform: rotate(0deg) translateX(0vh);
+  transform-origin: top left;
+  overflow-y:scroll; 
+  /* pour ie et moz */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+}
 .two
 {
   background: #f0ead6;
   height: 100vh;
-}
-
-.three
-{
-  background-color: #1ca55c;
-}
-.four 
-{
-  background: rgb(73, 47, 219);
 }

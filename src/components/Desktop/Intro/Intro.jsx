@@ -12,7 +12,6 @@ const Intro = () => {
       <div className="intro">
           <div className="introleft"><IntroLeft/></div> 
           <div className="introright"><IntroRight/></div> 
- 
       </div>
         
       </>

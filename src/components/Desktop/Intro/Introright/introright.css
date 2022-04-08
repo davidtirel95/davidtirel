@@ -55,6 +55,13 @@
     padding-right: 10px;   
 }    
 }
+@media screen and (max-width:700px)
+{
+    .intro-about
+    {
+        padding-right: 50px;
+    }
+}
 .i-logo 
 {
     display: flex;
@@ -116,6 +123,7 @@
   
 }
 }
+
 .interest
 {
     font-size: 29px;
